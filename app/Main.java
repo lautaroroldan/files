@@ -41,6 +41,15 @@ public class Main {
                 System.out.println("Ultima modificacion : " + lastUpdate.toString());
             }
 
+
+
+
+            Persona persona = new Persona("lautaro","roldan",21);
+            Persona persona2 = new Persona("asdasd","sssss",22);
+
+
+
+
             FileWriter fWriter = new FileWriter(myFile);
             BufferedWriter bWiter = new BufferedWriter(fWriter);
 
